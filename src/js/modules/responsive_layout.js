@@ -188,6 +188,8 @@ ResponsiveLayout.prototype.generateCollapsedRowData = function(row){
 	data = row.getData(),
 	output = [],
 	mockCellComponent;
+	
+	output.push(row)
 
 	this.hiddenColumns.forEach(function(column){
 		var value = column.getFieldValue(data);

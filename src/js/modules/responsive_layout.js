@@ -229,7 +229,8 @@ ResponsiveLayout.prototype.generateCollapsedRowData = function(row){
 			}
 		}
 	});
-
+	
+	console.log(output)
 	return output;
 };
 
